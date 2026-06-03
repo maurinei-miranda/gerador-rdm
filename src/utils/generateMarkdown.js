@@ -27,7 +27,7 @@ ${data.resumo}
 ${data.responsaveis}
 
 ---
-*Existe fábrica envolvida?* ${markNoYes(data.fabrica)}${fabricaBloco}
+*EXISTE FÁBRICA ENVOLVIDA?* ${markNoYes(data.fabrica)}${fabricaBloco}
 
 ---
 *RDMs / RELACIONAMENTOS* – Existem RDMs relacionadas? ${markNoYes(data.rdmrel)}${rdmrelBloco}
@@ -41,11 +41,11 @@ ${integracaoLinha}
 ${data.objetos}
 
 ---
-*Fluxos/Processos Impactados*
+*FLUXOS/PROCESSOS IMPACTADOS*
 ${data.fluxos}
 
 ---
-*Impacto em telas?* ${markNoYes(data.telas)}${telasBloco}
+*IMPACTO EM TELAS?* ${markNoYes(data.telas)}${telasBloco}
 
 ---
 *CÓDIGO E VERSIONAMENTO* – Commits/PRs relacionados? ${markNoYes(data.prs)}${prsBloco}
@@ -57,6 +57,6 @@ ${toggleBloco}
 *RISCOS, OPERAÇÃO E ROLLBACK* – Existe risco técnico? ${markNoYes(data.risco)}${riscoBloco}
 
 ---
-*Orientações para operação, sustentação ou rollback*
+*ORIENTAÇÕES PARA OPERAÇÃO, SUSTENTAÇÃO OU ROLLBACK*
 ${data.rollback}`;
 }
